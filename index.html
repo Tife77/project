@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Information Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Lagos University Teaching Hospital</h1>
+        <p>Employee Information Portal</p>
+    </header>
+
+    <div class="container">
+        <div class="search-container">
+            <label for="eeidInput">Enter EEID:</label>
+            <input type="text" id="eeidInput" placeholder="E02387">
+            <button onclick="searchEmployee()">Search</button>
+        </div>
+
+        <div id="result-container">
+            <!-- Display search results here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
